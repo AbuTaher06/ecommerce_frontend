@@ -5,6 +5,7 @@
     </header>
     <main>
       <ProductList />
+      <AddProduct />
     </main>
 
     <footer>
@@ -15,11 +16,12 @@
 
 <script>
 import ProductList from './components/ProductList.vue'
-
+import AddProduct from './components/AddProduct.vue'
 export default {
   name: 'App',
   components: {
-    ProductList
+    ProductList,
+    AddProduct,
   }
 };
 </script>
